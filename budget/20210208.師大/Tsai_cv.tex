@@ -1,0 +1,692 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+\documentclass[a4paper, 11pt]{article}
+
+%\documentclass[A4]{article}
+%\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{pagecounting}
+\usepackage[dvips]{color}
+\usepackage{aastex_hack}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amssymb}
+%\usepackage{deluxetable}
+
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+%\usepackage[T1]{fontenc}
+%\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{TSAI, An-Li}
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+%\def\footerlink{http://jblevins.org/projects/cv-template/}
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.5in},
+%  body={6.5in, 8.5in},
+  left=0.8in,
+%  top=1.2in
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+%  \href{http://www.es.ntnu.edu.tw/}{National Taiwan Normal University} \\
+%  Department of Earth Sciences, \\
+%National Taiwan Normal University, \\
+%  Taipei, Taiwan\\
+%\& \\
+%  \href{http://www.asiaa.sinica.edu.tw/}{Acamedia Sinica} \\
+%  Institute of Astronomy and Astrophysics, \\
+%Acamedia Sinica,\\
+%  Taipei, Taiwan\\
+\end{minipage}
+%\section*{Contact Informationn}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Gender: & Female \\
+    Nationality: & Taiwan \\
+%    Affiliation: & Astronomical Observatory Institute, Faculty of Physics, \\
+%		 & Adam Mickiewicz University in Poznan\\
+%    Address: & ul. Sloneczna 36, PL 60­286 Poznan, Poland\\
+%    Phone: & +48 61 829 2770\\
+%    Fax: &  +48 61 829 2772 \\
+%    Email: & anli.tsai@amu.edu.pl\\%{\tt altsai@asiaa.sinica.edu.tw} \\
+    Affiliation: & Institute of Astronomy, National Central University \\
+    Address: & No. 300, Zhongda Rd., Zhongli Dist., Taoyuan City 32001, Taiwan  \\
+    Email: & altsai@astro.ncu.edu.tw \\
+  \end{tabular}
+\end{minipage}
+
+
+
+
+\begin{comment}
+\section*{Research Specialty}
+Red QSOs\\
+Unidentified Fermi Objects\\
+Starburst Galaxies\\
+Molecular Outflows and Superbubbles\\
+Radio Astronomy\\
+X-ray Astronomy
+\end{comment}
+
+
+%\section*{Relative Research Experiences and Salary History}
+%\section*{Relative Research Experiences}
+\section*{Education and Positions}
+%\begin{itemize}
+%\item
+{Postdoctoral Fellow},
+Graduate Institute of Astronomy, National Central University (2019 -- present)\\
+%\item
+{Postdoctoral Fellow}, Astronomical Observatory Institute, \\
+ ${\rm }$ ${\rm }$ ${\rm }$ ${\rm }$ 
+ Faculty of Physics, Adam Mickiewicz University in Poznan (2018 -- 2019)\\
+%\item
+{SMA 2nd-shift Observer Staff}, 
+Institute of Astronomy and Astrophysics, Academia Sinica  (2013 -- 2017)\\
+%\item
+{Postdoctoral Fellow},
+Graduate Institute of Astronomy, National Central University (2011 -- 2017)\\
+%\item
+{Ph.D. Degree}, 
+Department of Earth Sciences, National Taiwan Normal University (2004 -- 2011)
+%\item
+%{Research Assistant},
+%Institute of Astronomy, National Central University (2000 -- 2002)
+%\item
+%{Research Assistant},
+%Institute of Astronomy and Astrophysics, Academia Sinica (2002 -- 2004)
+%\item
+%{Master Degree},
+%Institute of Astronomy, National Central University (1998 -- 2000) 
+%\end{itemize}
+
+
+\section*{Approved Grants}
+MINIATURA, Poland (2019 -- 2020)\\
+RadioNet, European Union (2019 -- 2020)\\
+RadioNet, European Union (2018 -- 2019)
+
+
+
+\begin{comment}
+\section*{Approved PI Proposals}
+%\subsection*{Data}
+\begin{itemize}
+\item
+ALMA Cycle 3,
+``Do galaxies lose molecular gas more than expected?'' (2015)
+%\item
+%ARO 12M,
+%``Molecular gas in Optical Violent Variable Quasars'' (2015)
+%\item
+%ARO SMT,
+%``Monitoring gas emission on Ceres by SMT'' (2015)
+\item
+EAO JCMT,
+``Are red QSOs caused by warm dust from star-forming activities?'' (2015)
+\item
+EAO JCMT,
+``Molecular outflows from nearby starburst galaxies'' (2015)
+\item
+NCRA GMRT,
+``Constrain the SED of the Unidentified Fermi Object at Radio Band'' (2013)
+\end{itemize}
+\end{comment}
+
+\section*{Programming Skill}
+%{-- Programming --}\\
+%\begin{itemize}
+%\item IDL, GNUPLOT, Python, Mathematica, Basic, FORTRAN, Shell-script
+%\item
+%{Programming --} IDL, GNUPLOT, Shell-script
+Python\\ IDL\\ Shell-script
+%{\bf Programming --} IDL, GNUPLOT, Python, Shell-script
+%\end{itemize}
+
+
+\begin{comment}
+\section*{Experiences of Observation and Data Analysis}
+\subsection*{Experiences of Observation}
+{Radio/mm/Submm Single-Dish:} 
+IRAM 30m, NRO 45m, ARO 12M, ARO SMT, JAC JCMT\\
+{Radio/mm/Submm Interferometry:} 
+SMA, GMRT\\
+{Optical telescopes:} 
+SUBARU, Lulin One-meter Telescope (Taiwan)
+\end{comment}
+
+\begin{comment}
+IRAM 30m Telescope, On-site Observations (2018 -- present)\\
+SMA Interferometry, Remote Observations (2013 -- 2017)\\
+ARO 12M Telescope, Remote Observations (2015 -- 2017)\\
+ARO SMT Telescope, Remote Observations (2011, 2015 -- 2017)\\
+JAC JCMT Telescope, On-site Observations (2013)\\
+SMA Interferometry, On-site Observations (2012, 2013)\\
+SMA Interferometry, Remote Observations (2013 -- 2017)\\
+GMRT Telescope, Remote Observations (2013)\\
+NRO 45m Telescope, On-site Observations (2006, 2012, 2013)\\
+Lulin One-meter Telescope, On-site Observations (2011 -- 2013, 2019 -- present)\\
+SUBARU Telescope, On-site Observations (2001)
+\end{comment}
+
+\begin{comment}
+\subsection*{Experiences of Data Analysis}
+%\section*{Data, Software \& Programming Skills}
+%\subsection*{(1) Data}
+%{\bf Data Experience:}\\
+%\begin{itemize}
+%\item VLA, NMA, SMA, CHANDRA %, SMT
+%\item
+%{Data} % VLA, NMA, SMA, ALMA, SMT, SDSS, WISE, CHANDRA, FERMI
+%\begin{itemize}
+%\item 
+Radio/mm/Submm Interferometry : VLA, GMRT, Nobeyama Millimeter Array, SMA, ALMA\\
+%\item 
+Radio/mm/Submm Single-Dish : ARO-SMT, ARO-12M, IRAM 30m\\
+%\item 
+X-ray/$\gamma$-ray: Chandra, Fermi\\
+%\item 
+Optical/IR : SDSS, WISE, Spitzer
+\end{comment}
+
+\begin{comment}
+%\end{itemize}
+\subsection*{Data Reduction Software}
+%{\bf Data Reduction Software:}\\
+%\begin{itemize}
+%\item AIPS, MIRIAD, XSPEC, CIAO, FV, DS9 %-IDL, UNIPOPS
+%\item
+%{Software --} AIPS, MIR, MIRIAD, CASA, CLASS, XSPEC, CIAO, FV, DS9  %-IDL, UNIPOPS
+%\item 
+Radio/mm/Submm Interferometry : AIPS, MIR, MIRIAD, CASA\\
+%\item 
+Radio/mm/Submm Single-Dish : CLASS\\
+%\item 
+X-ray/$\gamma$-ray/Optical/IR : XSPEC, CIAO, FV, DS9\\  %-IDL, UNIPOPS
+%\end{itemize}
+%\subsection*{(3) Programming}
+\end{comment}
+
+
+
+\begin{comment}
+\section*{Teaching Experiences}
+%\subsection*{Lecture}
+\begin{itemize}
+%\item
+%{\bf A.-L. Tsai},
+%''Synthesis Imaging Using CASA(1): Viewer, File structure of Image Cubes, CLEAN parameters'',
+%Lecturer and Teaching Assistant, CASA Workshop 2014, Taiwan (2014)
+%\end{itemize}
+
+%\subsection*{Summer Student Program}
+%\begin{itemize}
+\item
+Hwang, C-.Y. \& {\bf A.-L. Tsai},
+ALMA-T 2015 Summer Student Program (2015) \\
+-- Study K--S Law using ALMA archival data
+\item
+{\bf A.-L. Tsai},
+Lecturer and Teaching Assistant, CASA Workshop 2014, Taiwan (2014)\\
+-- Synthesis Imaging Using CASA : Viewer, File structure of Image Cubes, CLEAN parameters
+\item
+Hwang, C-.Y. \& {\bf A.-L. Tsai},
+ALMA-T 2014 Summer Student Program (2014) \\
+-- Study $M$--$\sigma$ Relation using ALMA archival data (2014)
+\item
+S. Foucaud \& {\bf A.-L. Tsai},
+NTNU 2011 Summer Student Program (2011) \\
+-- Study molecular gas in massive galaxies using Prof. Foucoud's SMA data (2011)
+\end{itemize}
+\end{comment}
+
+
+
+
+
+
+
+\begin{comment}
+\section*{List of References}
+\subsection*{Reference 1}
+%{-- Reference 1 --}\\
+%\begin{minipage}{0.45\linewidth}
+\begin{tabular}{ll}
+	Name: & Dr. hab. Micha{\l} J. Micha{\l}owski\\
+	Affiliation: & Astronomical Observatory Institute, Faculty of Physics, \\
+	&  Adam Mickiewicz University in Poznan\\
+	Address: & ul. Sloneczna 36, Poznan, 60-286, Poland\\
+	Email: & mj.michalowski@gmail.com\\
+	Phone: & +48-61-829-2770\\
+\end{tabular}
+%\end{minipage}
+
+\subsection*{Reference 2}
+%{-- Reference 2 --}\\
+\begin{tabular}{ll}
+	Name: & Prof. Hwang, Chorng-Yuan\\
+	Affiliation: & Institute of Astronomy, National Central University \\
+	Address: & No. 300, Jhongda Rd., Jhongli Dist., Taoyuan 32001, Taiwan \\
+	Email: & hwangcy@astro.ncu.edu.tw \\
+	Phone: & +886-3-422-7151 ext.65964\\
+\end{tabular}
+
+%\subsection*{Reference 2}
+%{-- Reference 2 --}\\
+%$Name: Dr. Matsushita, Satoki\\
+%Affiliation: Institute of Astronomy and Astrophysics, Academia Sinica \\
+%Address: No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan \\
+%No. 300, Jhongda Rd, Jhongli City, Taoyuan County 32001, Taiwan \\
+%Email: satoki@asiaa.sinica.edu.tw \\
+%Phone: +886-2-2366-5475\\
+
+%\begin{comment}
+\subsection*{Reference 3}
+%{-- Reference 3 --}\\
+\begin{tabular}{ll}
+Name: & Prof. Kong, Albert\\
+Affiliation: & Institute of Astronomy, National Tsing Hua University \\
+Address: & No. 101, Sec. 2, Kuang-Fu Rd., Hsin-Chu 30013, Taiwan \\
+Email: & akong@phys.nthu.edu.tw \\
+Phone: & +886-3-571-5131 ext.42619\\
+\end{tabular}
+\end{comment}
+
+\begin{comment}
+\subsection*{Reference 4}
+%{-- Reference 4}\\
+\begin{tabular}{ll}
+Name: & Prof. Kohno, Kotaro\\
+Affiliation: & Institute of Astronomy, University of Tokyo \\
+Address: & 2-21-1, Osawa, Mitaka, Tokyo 181-0015, Japan \\
+Email: & kkohno@ioa.s.u-tokyo.ac.jp  \\
+Phone: & +81-422-34-5029\\
+\end{tabular}
+\end{comment}
+
+
+
+
+
+
+\begin{comment}
+\section*{Language Skills}
+Chinese : Native ; Taiwanese : Native \\
+English : Good ; Japanese : Fair ; Spanish : A little
+\end{comment}
+
+\begin{comment}
+\section*{Awards and Honors}
+{\bf Best Poster}\\
+%\subsection*{Best Poster}
+%\begin{itemize}
+%\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Kohno, K., Kawabe, R., Inui, T., Matsumoto, H., Tsuru, T. G., Peck, A. B., \& Tarchi, A.,
+``Deep CO(1-0) Imaging of the Edge-On Starburst Galaxy NGC 2146'', 
+% Annual Meeting of the Chinese Astronomy Society at Taiwan, Taiwan
+ Annual Meeting of Astronomical Society of ROC, Taiwan (2004)
+%\end{itemize}
+\end{comment}
+
+
+
+
+
+\begin{comment}
+%\newpage
+
+%\section*{Bibliography}
+\section*{List of Publications}
+
+%{Refereed Papers }
+%{\bf Refereed Papers}
+%\subsection*{Refereed Papers}
+%\subsection*{Journal}
+\begin{itemize}
+	%\item
+	%{Refereed Papers --}
+	\item 
+	Weaver, Z. R., Williamson, K. E., Jorstad, S. G., et al. (iincluding {\bf Tsai, A.-L.}),
+	``Multi-Wavelength Variability of BL Lacertae Measured with High Time Resolution'',
+		{\it ApJ}, Vol.900, p.137 (2020)
+	\item 
+	Gibbs, A.,  Bixel, A., Rackham, B. V., et al. (including {\bf Tsai, A.-L.}), 
+	``EDEN: Sensitivity Analysis and Transiting Planet Detection Limits for Nearby Late Red Dwarfs'',
+	{\it AJ}, Vol.159, p.169 (2020)
+	\item 
+	Micha{\l}owski, M. J., Hjorth, J., Call, C., et al. (including {\bf Tsai, A.-L.}),
+	``The fate of the interstellar medium in early-type galaxies. I. First direct measurement of the timescale of dust removal'',
+	{\it A\&A}, Vol.632A, p.43 (2019)
+	\item 
+	Saintonge, A., Wilson, C.D., Xiao, T., et al. (including {\bf Tsai, A.-L.}),
+	``JINGLE, a JCMT legacy survey of dust and gas for galaxy evolution studies -- I. Survey overview and first result'',
+	{\it MNRAS}, Vol.481, p.3497 (2018)
+	\item 
+	Micha{\l}owski, M. J., Xu, D., Stevens, J., et al. (including {\bf Tsai, A.-L.}), 
+	%Micha{\l}owski, M. J., Xu, D., Stevens, J., Levan, A., Yang, J., Paragi, Z., Kamble, A., {\bf Tsai, A.-L.}, Dannerbauer, H., van der Horst, A., J., Shao, L., Crosby, D., Gentile, G., Stanway, E., Wiersema, K., Fynbo, J. P. U., Tanvir, N. R., Kamphuis, P., Garrett, M., \& Bartczak, P.,
+	``The second-closest gamma-ray burst: sub-luminous GRB 111005A with no supernova in a super-solar metallicity environment'',
+	{\it A\&A}, Vol. 616, p.169 (2018) %[SCI]
+	\item 
+	{\bf Tsai, A.-L.} \& Hwang, C.-Y., 
+	``Properties of Spectrally-defined Red QSOs at z = 0.3 --1.2'', {\it ApJ}, Vol. 842, p.57 (2017) %[SCI]
+	\item 
+	Hirashita, H., Koch, P. M., Matsushita, S., et al. (including {\bf Tsai, A.-L.}),
+%	Hirashita, H., Koch, P. M., Matsushita, S., Takakuwa, S., Nakamura, M., Asada, K., Liu, H. B., Urata, Y., Wang, M.-J., Wang, W.-H., Takahashi, S., Tang, Y.-W., Chang, H.-H., Huang, K., Morata, O., Otsuka, M., Lin, K.-Y., {\bf Tsai, A.-L.}, Lin, Y.-T., Srinivasan, S., Martin-Cocher, P., Pu, H.-Y., Kemper, F., Patel, N., Grimes, P., Huang, Y.-D., Han, C.-C., Huang, Y.-R., Nishioka, H., Lin, L. C.-C., Paine, S., Zhang, Q., Keto, E., Burgos, R., Chen, M.-T., Inoue, M., \& Ho, P. T. P.,  
+	``First-generation Science Cases for Ground-based Terahertz Telescopes'', 
+	{\it PASJ}, Vol. 68, R1 (2016) %[SCI]
+	%{\it PASJ}, Advance Access, 41. (2016)
+	
+	\item
+	{\bf Tsai, An-Li}, \& Matsushita, S.,
+	``The Galactic-Scale Molecular Outflows in Starburst Galaxies NGC 2146 and NGC 3628'',
+	{\it Publications of the Korean Astronomical Society}, Vol. 30, p.499 (2015)
+	\item 
+	{\bf Tsai, A.-L.}, \& Hwang, C.-Y.,
+	``Investigate the properties of red QSOs'',
+	{\it IAU General Assembly}, Meeting \#29, id.2256755 (2015)
+	\item
+	{\bf Tsai, A.-L.}, \& Matsushita, S.,
+	``The Evolution of Starburst Galaxies through Molecular Superbubbles'', %and Outflows'',
+	{\it Astronomical Society of the Pacific}, Vol. 477, p.309 (2013)
+	\item
+	Matsushita, S., Krips, M., Lim, J., Muller, S., {\bf Tsai, A.-L.},
+	``Feedback Mechanisms of Starbursts and AGNs through Molecular Outflows'',
+	{\it Astronomical Society of the Pacific}, Vol. 476, p.283, (2013)
+	\item
+	{\bf Tsai, A.-L.}, Urata, Y., Takahashi, S., Chuang, C.-J.,
+	``Constrain the SED Type of Unidentified Fermi Objects'',
+	%{\it Journal of the Korea Space Science Society}, Vol. 30, p.123, (2013)
+	{\it Journal of Astronomy and Space Science Society}, Vol. 30, p.123, (2013)
+	
+	\item 
+	Kataoka, J., Yatsu, Y., Kawai, N., et al. (including {\bf Tsai, A.-L.}),
+	%Kataoka, J., Yatsu, Y., Kawai, N., Urata, Y., Cheung, C. C., Takahashi, Y., Maeda, K., Totani, T., Makiya, R., Hanayama, H., Miyaji, T., \& {\bf Tsai, A.-L.},
+	``Toward Identifying the Unassociated Gamma-ray Source 1FGL J1311.7-3429 with X-ray and Optical Observations'',
+	{\it ApJ}, Vol.757, p.176 (2012) %[SCI]
+	\item 
+	{\bf Tsai, A.-L.}, Matsushita, S., Kong, A. K. H., Matsumoto, H., \& Kohno, K.,
+	``First Detection of a Subkiloparsec Scale Molecular Outflow in the Starburst Galaxy NGC 3628'',
+	{\it ApJ}, Vol.752, p.38 (2012) %[SCI]
+	
+	\item
+	{\bf Tsai, A. L.}, Matsushita, S., Kohno, K., Nakanishi, K., Matsumoto, H.,
+	``The kpc-scale molecular outflows in two nearby starburst galaxies, NGC 2146 and NGC 3628'',
+	{\it Proceedings of Nuclei of Seyfert galaxies and QSOs - Central engine \& conditions of star formation (Seyfert 2012)}, \#id.26 (2012)
+	\item
+	{\bf Tsai, A. L.}, \& Hwang, C. Y,
+	``The MIR properties of red QSOs'',
+	{\it Proceedings of Nuclei of Seyfert galaxies and QSOs - Central engine \& conditions of star formation (Seyfert 2012)}, \#id.75 (2012)
+	
+	\item 
+	{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Kohno, K., Kawabe, R., Inui, T., Matsumoto, H., Tsuru, T. G., Peck, A. B., \& Tarchi, A., 
+	%{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Kohno, K., Kawabe, R., et al.,
+	``Molecular Superbubbles and Outflows from the Starburst Galaxy NGC 2146'',
+	{\it PASJ}, Vol.61, p.237 (2009)
+	%\end{itemize}
+	
+	\item 
+	Matsushita, S., {\bf Tsai, A.-L.}, Kawabe, R., Nakanishi, K., Vila-Vilaro, B., Kohno, K., Inui, T., Matsumoto, H., Tsuru, T. G., \& Peck, A. B.,
+	%Matsushita, S., {\bf Tsai, A.-L.}, Kawabe, R., Nakanishi, K., Vila-Vilaro, B., et al.,
+	%``Molecular Bubbles and Outflows in the Edge-on Starburst Galaxies %M82 and NGC 2146''
+	{\it Astrophysics and Space Science Proceedings}, Vol. 36, p.352 (2008)
+	\item 
+	{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Peck, A. B., Kohno, K., Kawabe, R., Inui, T., Matsumoto, H., \& Tsuru, T. G.,
+	{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Peck, A. B., Kohno, K., et al.,
+	``Deep $^{12}$CO(1-0) Imaging of the Starburst Galaxy NGC 2146'',
+	{\it East-Asian Young Astronomer Meeting Proceedings} (2006)
+	\item 
+	Kinoshita, D., Watanabe, J.-I., Yamamoto, N., et al. (including {\bf Tsai, A.-L.}),
+	%Kinoshita, D., Watanabe, J.-I., Yamamoto, N., Fuse, T., Miyasaka, S., Muroi, K., \& {\bf Tsai, A.-L.}
+	``Deep TNO Search Near Invariable Plane Using SUBARU Telescope'',
+	{\it Physical Properties and Morphology of Small Solar System Bodies, 25th meeting of the IAU} (2003)
+\end{itemize}
+
+\end{comment}
+
+
+
+
+
+
+
+\begin{comment}
+\section*{List of Conference Presentations}
+\subsection*{Oral Presentations}
+\begin{itemize}
+\item
+	{\bf Tsai, A.-L.}, Rizzo, J. R., Hwang, C.-Y., \& Chapillon,
+`` CO Observations on Galactic Outflows in Starbrust Galaxy NGC3628'',
+Annual Meeting of Astronomical Society of ROC, Taiwan (2020)
+\item
+{\bf Tsai, A.-L.} \& Hwang, C-.Y.,
+``Galactic scale molecular outflows in NGC 3628'',
+East Asia ALMA Science Workshop 2017, Korea (2017)
+\item
+{\bf Tsai, A.-L.} \& Hwang, C-.Y.,
+``Molecular outflows of NGC 3628 in large scale'',
+East Asia ALMA Science Workshop 2016, Taiwan (2017)
+\item 
+{\bf Tsai, A.-L.} \& Hwang, C-.Y., 
+``Properties of Spectrally-defined Red QSOs at z = 0.3-1.2'',
+The Extreme Universe: from Compact Objects to Cosmology, Hong Kong (2016)
+\item 
+{\bf Tsai, A.-L.}, Hwang, C-.Y., \& Cheng, H.-R.,
+``Star Formation Efficiency in Centaurus A'',
+Annual Meeting of Astronomical Society of ROC, Taiwan (2016)
+\item 
+{\bf Tsai, A.-L.} \& Hwang, C-.Y., 
+``Star Formation Efficiency in Centaurus A'',
+ East Asian ALMA Science Workshop 2015, Japan (2015)
+\item 
+{\bf A.-L. Tsai} \& S. Matsushita,
+``The galactic-scale molecular outflows in starburst galaxies NGC 2146 and NGC 3628'',
+APRIM 2014:: 12th Asia-Pacific Regional IAU Meeting, Korea (2014)
+\item 
+{\bf Tsai, A.-L.}, Urata, Y., Takahashi, S, Chung, C.-J.,
+``Constrain the SED Type of Unidentified Fermi Objects'',
+Fermi Asian Network, Taiwan (2014)
+\item 
+{\bf Tsai, A.-L.} \& Hwang, C-.Y., 
+``Mid-Infrered Properties of Optical Selected Red QSOs'',
+Annual Meeting of Astronomical Society of ROC, Taiwan (2013)
+\item 
+{\bf A.-L. Tsai} \& S. Matsushita,
+``The kpc-scale molecular outflows in two nearby starburst galaxies, NGC 2146 and NGC 3628'',
+WORKSHOP : Nuclei of Seyfert galaxies and QSOs - Central engine \& conditions of star formation, Germany (2013)
+\item 
+{\bf Tsai, A.-L.}, Urata, Y., Takahashi, S., \& Chang, C.-J., 
+``Constrain the SED type of Unidentified Fermi Objects'',
+ 3rd Fermi Asian Network Workshop, Korea (2012)
+\item 
+{\bf Tsai, A.-L.}, Hwang, C.-Y., \& Chen, Y.-J., 
+``The Radio and MIR Properties of Red QSOs'', 
+ Annual Meeting of Physics Society of ROC, Taiwan (2012)
+\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Kohno, K., \& Nakanishi, K.,
+``The Significance of Molecular Outflows and Superbubbles in Starburst Galaxies'', 
+ Annual Meeting of Astronomical Society of ROC, Taiwan (2011)
+\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Kohno, K., \& Nakanishi, K.,
+``Do Molecular Outflows or Superbubbles from Starburst Galaxies Quench Starburst Activities?'', 
+ Annual Meeting of Astronomical Society of ROC, Taiwan (2010)
+\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Kohno, K., Kawabe, R., Inui, T., Matsumoto, H., Tsuru, T. G., \& Peck, A. B.,
+``The Characteristic of Molecular Bubbles and Outflow in the Starburst Galaxy NGC 2146'', 
+ Annual Meeting of Astronomical Society of ROC, Taiwan (2007)
+\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Peck, A. B., Kohno, K., Kawabe, R., Inui, T., Matsumoto, H., \& Tsuru, T. G.,
+``Deep CO(1-0) Imaging of the Edge-On Starburst Galaxy NGC 2146'', 
+ East Asian Young Astronomers Meeting, Japan (2006)
+\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Peck, A., Kohno, K., Kawabe, R., Inui, T., Matsumoto, H., \& Tsuru, T. G.,
+``Deep CO(1-0) Imaging of the Edge-On Starburst Galaxy NGC 2146'', 
+ Annual Meeting of the Physical Society of ROC, Taiwan (2005)
+\end{itemize}
+
+
+\subsection*{Poster Presentations}
+\begin{itemize}
+\item 
+{\bf Tsai, A.-L.}, Rizzo, R., Chapillon, E., \& Hwang, C-.Y., 
+``CO Observations on Galactic Outflows in Starbrust Galaxy NGC3628'',
+East-Asian ALMA Science Workshop 2019, Taiwan (2020)
+\item 
+{\bf Tsai, A.-L.}, Rizzo, R., Chapillon, E., \& Hwang, C-.Y., 
+``CO observations on galactic scale molecular outflows in NGC 3628'',
+ Annual Meeting of the Astronomy Society of ROC, Taiwan (2019)
+\item 
+{\bf Tsai, A.-L.} \& Hwang, C-.Y., 
+``Properties of Spectrally-defined Red QSOs at z = 0.3-1.2'',
+ Annual Meeting of Physics Society of ROC, Taiwan (2017)
+\item 
+{\bf Tsai, A.-L.} \& Hwang, C-.Y., 
+``Properties of Spectrally-defined Red QSOs at z = 0.3-1.2'',
+East-Asia Young Astronomer Meeting, Taiwan (2016)	
+\item 
+{\bf Tsai, A.-L.} \& Hwang, C-.Y., 
+``Investigate the Properties of Red QSOs'',
+WORKSHOP : Gas, Dust, and Star-Formation in Galaxies from the Local to Far Universe, Greece (2015)
+\item 
+{\bf Tsai, A.-L.} \&  Matsushita, S.,
+``The galactic-scale molecular outflows in starburst galaxies NGC 2146 and NGC 3628'',
+APRIM 2014:: 12th Asia-Pacific Regional IAU Meeting, Korea (2014)
+\item 
+{\bf Tsai, A.-L.} \& Hwang, C.-Y.,
+``Investigation of the red QSOs using ALMA'', 
+East Asia ALMA Science Workshop 2014, Korea (2014)
+\item 
+{\bf Tsai, A.-L.} \& Hwang, C-.Y., 
+``Mid-Infrered Properties of Optical Selected Red QSOs'',
+Annual Meeting of Astronomical Society of ROC, Taiwan (2014)
+\item 
+{\bf A.-L. Tsai} \& Y. Urata,
+``Constrain the SED of the Unidentified Fermi Object at Radio Band'',
+2013 Asia Pacific Radio Science Conference, Taiwan (2013)
+\item 
+H. Hirashita, S. Matsushita, P. M. Koch, K. Asada, M.-T. Chen, Y.-T. Lin,  M. Nakamura, P. T. P. Ho,  K. Huang, M. Inoue, M. Otsuka, S. Srinivasan, S. Takahashi, S. Takakuwa,  {\bf A.-L. Tsai}, Y. Urata, M.-J. Wang, W.-H. Wang,
+``Possible Terahertz Observations for Greenland Telescope'', 2013 Asia Pacific Radio Science Conference, Taiwan (2013)
+\item 
+A.-L. Tsai \& C.-Y. Hwang,
+``The MIR Properties of Red QSOs'',
+WORKSHOP : Nuclei of Seyfert galaxies and QSOs - Central engine \& conditions of star formation, Germany (2013)
+\item 
+{\bf Tsai, A.-L.}, Hwang, C-.Y., \& Chen, Y.-J., 
+``The MIR Properties of Optical Selected QSOs'', 
+ Annual Meeting of Astronomical Society of ROC, Taiwan (2012)
+\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Kohno, K., \& Nakanishi, K., 
+``The Evolution of Starburst Galaxies through Molecular Superbubbles and Outflows'', 
+Galaxy Mergers in an Evolving Universe Conference, Taiwan (2011)
+\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Kohno, K., \& Nakanishi, K.,
+``Starburst-driven molecular outflows or superbubbles impede starburst activities'', 
+Annual Meeting of the Physical Society of ROC, Taiwan (2011)
+\item 
+{\bf Tsai, A.-L.} \& Matsushita, S., 
+``Molecular Outflows and Superbubbles in Starburst Galaxies NGC 2146 and NGC 3628'', 
+Annual Panel Meeting of Institute of Astronomy and Astrophysics in Academia Sinica, Taiwan (2010)
+\item 
+{\bf Tsai, A.-L.} \& Matsushita, S.,
+``Deep CO(1-0) Observation of the Starburst Galaxy NGC 3628'', 
+ Annual Meeting of Astronomical Society of ROC, Taiwan (2009)
+\item 
+{\bf Tsai, A.-L.}, Matsushita, S., Nakanishi, K., Kohno, K., Kawabe, R., Inui, T., Matsumoto, H., Tsuru, T. G., Peck, A. B., \& Tarchi, A., 
+``Molecular superbubbles and outflows from the starburst NGC2146'', 
+ Annual Meeting of Astronomical Society of ROC, Taiwan (2008)
+\item 
+{\bf Tsai, A.-L.}, Nakanishi, K., Peck, A. B., Kohno, K., Kawabe, R., Inui, T., Matsumoto, H., \& Tsuru, T. G.,
+``Deep CO(1-0) Imaging of the Edge-On Starburst Galaxy NGC 2146'', Matsushita, S., 
+ Annual Meeting of American Astronomy Society, U.S.A. (2004)
+\end{itemize}
+\end{comment}
+
+
+
+
+
+% \bigskip
+
+% % Footer
+% \begin{center}
+%   \begin{footnotesize}
+% %    Last updated: \today \\
+%     \href{\footerlink}{\texttt{\footerlink}}
+%   \end{footnotesize}
+% \end{center}
+
+\end{document}
